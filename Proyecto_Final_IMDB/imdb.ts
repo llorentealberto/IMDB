@@ -10,6 +10,12 @@ export class Imdb {
     this.movies = movies;
   }
 
+  public toString():string {
+
+    return JSON.stringify(this);
+  }
+
+  
 
 
 }

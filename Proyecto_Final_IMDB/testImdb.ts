@@ -1,4 +1,4 @@
-
+import * as fs from 'fs'; 
 import { Imdb } from "./imdb";
 import { Movie } from "./movie";
 
@@ -17,3 +17,15 @@ export let totMovies=[movie1 ,movie2 , movie3];
 let pruebaImdb = new Imdb(totMovies);
 
 console.log((pruebaImdb.movies));
+
+
+console.log(pruebaImdb.toString());
+
+const nombreArchivo= "imdbBBDD.json";
+
+fs.writeFileSync(nombreArchivo , pruebaImdb.toString() , 'utf-8');
+
+console.log('prueba para ver si se guarda en ' + nombreArchivo);
+
+
+
