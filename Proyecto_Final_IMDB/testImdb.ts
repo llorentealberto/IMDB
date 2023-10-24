@@ -26,6 +26,11 @@ const nombreArchivo= "imdbBBDD.json";
 fs.writeFileSync(nombreArchivo , pruebaImdb.toString() , 'utf-8');
 
 console.log('prueba para ver si se guarda en ' + nombreArchivo);
+// leemos los archivos json 
+const lecturaJson =fs.readFileSync(nombreArchivo ,'utf-8');
 
-
+ // utilizzamos el parse parar poder leer el json y el propio metodo 
+ // lo commbierte en un objeto asique solo tenemos que almacenarlo despues en .movies 
+const lecturaImdb = JSON.parse(lecturaJson);
+const imdbJson = new Imdb(lecturaImdb.movies);
 
