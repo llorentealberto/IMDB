@@ -1,4 +1,1 @@
-{"movies":[{"title":"armagedon","releaseYear":1998,"nacionality":"american","genre"
-:"accion"},{"title":"pesadilla en elm street","releaseYear":2015,
-"nacionality":"american","genre":"terror"},{"title":"V de Vendetta","releaseYear":1995,"nacionality":
-"american","genre":"thriller"}]}
+[{"title":"armagedon","releaseYear":1998,"nacionality":"american","genre":"accion","actors":[{"name":"Brad Pitt","age":55,"weight":75,"height":180,"isRetired":false,"nationality":"Estadounidense","oscarsNumber":2,"profession":"Actor"}]},{"title":"pesadilla en elm street","releaseYear":2015,"nacionality":"american","genre":"terror"},{"title":"V de Vendetta","releaseYear":1995,"nacionality":"american","genre":"thriller"}]
